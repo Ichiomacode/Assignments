@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body class="all">
+    <div class="container">
+    <form action="result.html" method="GET">
+        <h1 class="heading">Registration Form</h1>
+        <p class="instruction">Please fill out this form with the required information</p> 
+
+        <fieldset class="fieldset">
+            <section>
+                <p> 
+                    <label for="first name">Enter your First Name</label>
+                    <input name="firstname" type="text" id="first name" required><br>
+                </p> 
+                <p>
+                    <label for="last name">Enter your Last Name</label>
+                    <input type="text" name="lastname" id="last name" required><br>
+                </p> 
+                <p> 
+                    <label for="email">Enter your email</label>
+                    <input type="email" name="emai" id="emai" required><br> 
+                </p> 
+                <p> 
+                    <label for="password">Create a new Password</label>
+                    <input type="password" name="password"  id="password" required>
+                </p>
+                <p> 
+                    <label for="number">Enter phone number</label>
+                    <input type="number" name="password"  id="number" required>
+                </p>
+                <p>
+                    <label for="input your age">Date of birth</label>
+                   <input type="date" name="date" id="date">
+                </p>
+               </p>
+                <label for="gender"> Gender</label> 
+               <select name="text" id=" gender">
+                <option value="Gender">select option</option>
+                <option value="Gender">male</option>
+                <option value="Gender">female</option>
+               </select> <br>
+               </p>
+               </p>
+               <label for="Colour"> Favourite Colour</label> 
+               <select name="text" id=" Colour">
+                <option value="Colour">select colour</option>
+                <option value="Colour">red</option>
+                <option value="Colour">blue</option>
+                <option value="Colour">green</option>
+                <option value="Colour">white</option>
+                <option value="Colour">purple</option>
+                <option value="Colour">orange</option>
+                <option value="Colour">yellow</option>
+                <option value="Colour">black</option>
+
+
+            </p>
+               </select>
+            </section>
+        </fieldset>
+       
+        <section>
+            <p> 
+                <a href="./login.html"> 
+                    <button type="submit">Sign Up</button> 
+                </a> 
+                <p class="already">Already have an account<a href="./login.html"> log in</a></p>   
+            </p>    
+        </Section>
+    </form>
+</div>
+</body> 
+</html>

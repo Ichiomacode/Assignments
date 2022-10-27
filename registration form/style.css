@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+   width: 80%;
+   padding: 20px; 
+   border-radius: 5%;
+   background-color:lightgrey;
+   margin-left: 10%;
+}
+input{
+width: 100%;
+padding: 10px;
+background-color: #f1f1f1;
+margin-top: 10px;
+margin-bottom: 10px;
+border: none;
+}
+.input:focus{
+    background-color: #ddd;
+    border: none;
+}
+a{
+    color: olive;
+}
+.reg-btn{
+    width: 40%;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: olive;
+    color: white;
+    margin-left: 25%;
+}
+
+.login-form{
+    background-color:lightgrey ;
+    border-radius: 5%;
+    padding: 10%;
+    margin-left:10%;
+    width: 70%;
+}
+.btn{
+    width: 40%;
+    cursor: pointer;
+    padding: 10px;
+    background-color: olive;
+    color: white;
+    margin-left: 25%;
+    border-radius: 10px;
+}
+.success{
+  background-color: blanchedalmond;
+  color: black;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 5%;
+  justify-content: space-between;
+}
+
+
